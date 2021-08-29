@@ -1,0 +1,81 @@
+
+body{
+    background-color: white;
+
+}
+
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.colores-primarios{
+    display: flex;
+    flex-direction: row;
+}
+
+.color {
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+.color:nth-child(2) {
+    background-color: yellow;
+}
+.color:nth-child(3) {
+    background-color: blue;
+    color: white;
+}
+
+.cromatico {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient( 
+        hsl(0, 100%, 50%) 0deg 15deg, 
+        hsl(45, 100%, 50%) 15deg 45deg,
+        hsl(75, 100%, 50%) 45deg 75deg, 
+        hsl(105, 100%, 50%) 75deg 105deg,
+        hsl(135, 100%, 50%) 105deg 135deg, 
+        hsl(165, 100%, 50%) 135deg 165deg, 
+        hsl(195, 100%, 50%) 165deg 195deg, 
+        hsl(225, 100%, 50%) 195deg 225deg,
+        hsl(255, 100%, 50%) 225deg 255deg, 
+        hsl(285, 100%, 50%) 255deg 285deg, 
+        hsl(315, 100%, 50%) 285deg 315deg, 
+        hsl(345, 100%, 50%) 315deg 345deg,
+        hsl(360, 100%, 50%) 345deg 360deg
+    );
+}
+
+
+
+.palette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.centro{
+    background-color: white;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+}
+
+

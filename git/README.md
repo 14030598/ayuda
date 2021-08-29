@@ -19,6 +19,30 @@
 |`git config -l` | Ver la informacion de configuración |
 
 
+git reflog [show] [log-options] [<ref>]
+git reflog expire [--expire=<time>] [--expire-unreachable=<time>]
+	[--rewrite] [--updateref] [--stale-fix]
+	[--dry-run | -n] [--verbose] [--all [--single-worktree] | <refs>…​]
+git reflog delete [--rewrite] [--updateref]
+	[--dry-run | -n] [--verbose] ref@{specifier}…​
+git reflog exists <ref>
+
+---
+
+## commits
+| Comando | Descripción |
+|---------|-------------|
+|`git commit --amend -m "Este es el mensaje correcto"`| quieres arreglar el mensaje que has usado para el último commit |
+|`git add src/archivo-con-cambios.js`| Quieres añadir más cambios al último commit: Añade los archivos con modificaciones que quieres añadir al commit anterior|
+|`git commit --amend -m "Mensaje del commit"`| Vuelve a hacer el commit con el parámetro amend: esto NO va a crear un nuevo commit si no que va a solucionar el anterior|
+|`git revert 74a1092`| Deshacer un commit (ya publicado)|
+|`gi`| Inicia|
+|`gi`| Inicia|
+|`gi`| Inicia|
+
+
+**Importante: _El parámetro de --amend es muy útil pero sólo funciona con el último commit y siempre y cuando NO esté publicado. Si ya has hecho push de ese commit, esto no va a funcionar. Deberías hacer un git revert en su lugar._**
+
 
 ---
 

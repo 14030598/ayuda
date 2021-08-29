@@ -2,23 +2,17 @@
 _Este repositorio contine ayuda en diversas tecnologias_
 
 # [Linux](linux/README.md)
+_comandos, instalaciones y mas_
+
+---
 
 # [git](git/README.md)
+_comandos para terminal_
 
+---
 
-
-# npm
-
-| Comando | Descripción |
-|---------|-------------|
-|`npm init`| Inicia un proyecto nuevo genera (package.json)|
-|`npm init -y`| Inicia un proyecto nuevo genera (package.json) rapido|
-|`npm i dependencia`| Instala dependencia (pueden separarse con estapios para instalar mas de uno|
-|`npm install`| Para instalar todas las dependencias instalados en package.json|
-|`npm i -D dependencia`| Instala dependencia en modo development|
-|`node .\node_modules\sass\sass.js --watch .\scss\main.scss output.css`| Este comando sirve para el watch de sass en windows|
-|``| |
-|``| |
+# [Links](links/README.md)
+_paginas de MUCHA ayuda_
 
 ---
 
@@ -47,4 +41,15 @@ _Este repositorio contine ayuda en diversas tecnologias_
 
 
 
+# MongoDB
+| Comando | Descripción |
+|---------|-------------|
+|``| |
 
+map js
+get: Este método nos permitirá obtener un valor del mapa
+clear : elimina todos los items del mapa
+set (key, value): añade un nuevo elemento al diccionario.
+remove(key): elimina un valor usando su llave.
+has(key): retorna true si la llave existe, sino, retorna false.
+get(key): retorna el valor que contiene la llave.
