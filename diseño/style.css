@@ -11,7 +11,7 @@ body{
     justify-content: center;
     margin: 2rem;
 }
-.colores-primarios{
+.colores{
     display: flex;
     flex-direction: row;
 }
@@ -24,18 +24,29 @@ body{
     justify-content: center;
     align-items: center;
 }
-.color:nth-child(1) {
+.color-primario:nth-child(1) {
     background-color: red;
     color: white;
 }
-.color:nth-child(2) {
+.color-primario:nth-child(2) {
     background-color: yellow;
 }
-.color:nth-child(3) {
+.color-primario:nth-child(3) {
     background-color: blue;
     color: white;
 }
-
+.color-secundario:nth-child(1) {
+    background-color: orange;
+    color: blue;
+}
+.color-secundario:nth-child(2) {
+    background-color: green;
+    color: white;
+}
+.color-secundario:nth-child(3) {
+    background-color: purple;
+    color: white;
+}
 .cromatico {
     width: 20rem;
     height: 20rem;
@@ -45,17 +56,17 @@ body{
     align-items: center;
     background: conic-gradient( 
         hsl(0, 100%, 50%) 0deg 15deg, 
-        hsl(45, 100%, 50%) 15deg 45deg,
-        hsl(75, 100%, 50%) 45deg 75deg, 
-        hsl(105, 100%, 50%) 75deg 105deg,
-        hsl(135, 100%, 50%) 105deg 135deg, 
-        hsl(165, 100%, 50%) 135deg 165deg, 
-        hsl(195, 100%, 50%) 165deg 195deg, 
-        hsl(225, 100%, 50%) 195deg 225deg,
-        hsl(255, 100%, 50%) 225deg 255deg, 
-        hsl(285, 100%, 50%) 255deg 285deg, 
-        hsl(315, 100%, 50%) 285deg 315deg, 
-        hsl(345, 100%, 50%) 315deg 345deg,
+        hsl(15, 100%, 50%) 15deg 45deg,
+        hsl(30, 100%, 50%) 45deg 75deg, 
+        hsl(45, 100%, 50%) 75deg 105deg,
+        hsl(60, 100%, 50%) 105deg 135deg, 
+        hsl(90, 100%, 50%) 135deg 165deg, 
+        hsl(120, 100%, 50%) 165deg 195deg, 
+        hsl(168, 100%, 50%) 195deg 225deg,
+        hsl(204, 100%, 50%) 225deg 255deg, 
+        hsl(240, 100%, 50%) 255deg 285deg, 
+        hsl(276, 100%, 50%) 285deg 315deg, 
+        hsl(300, 100%, 50%) 315deg 345deg,
         hsl(360, 100%, 50%) 345deg 360deg
     );
 }
