@@ -3,7 +3,7 @@
 | Teclado | Acciones |
 |---------|----------|
 | `Ctrl + Super(tecla Win) + d` | Muestra escritorio |
-|||
+|`fuser -k -n tcp 4001`| Mata el proceso del puerto 4001|
 
 
 # Instalación

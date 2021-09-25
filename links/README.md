@@ -13,5 +13,5 @@
 | https://balsamiq.cloud/ ||
 | https://whimsical.com/ ||
 |https://www.presenciaweb.net/tools/circulo-cromatico/||
-|||
+|https://poesiabinaria.net/2017/07/cerrar-puerto-tcp-ocupado-una-aplicacion-gnulinux/| Matar procesos en linux|
 
