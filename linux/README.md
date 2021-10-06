@@ -14,11 +14,7 @@
 
     _Instalará una version por defecto No sirve_
 
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-
-    _El ultimo comando es completo para saber si funcionara, puede omitir el penultimo_
-
+    - sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
     - source ~/.bashrc
     - nvm list-remote
     - sudo nvm install v14.17.5
@@ -29,8 +25,7 @@
 
 - **git**
     [Pagina oficial](https://git-scm.com/download/linux)
-    - add-apt-repository ppa:git-core/ppa
-    - apt update
+    - sudo add-apt-repository ppa:git-core/ppa
+    - sudo apt update
     - -apt upgrade-
     - sudo apt install git
-    - sudo apt install git-all //no funciono
