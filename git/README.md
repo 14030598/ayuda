@@ -16,6 +16,7 @@
 |`git reset --hard HEAD~1`| No mantiene los cambios |
 |`git config --global user.name "your_github_username"` |  |
 |`git config --global user.email "your_github_email"` |  |
+|`git config --global credential.helper store` | Guardar credenciales: **get** is a request for a username/password pair. **store** is a request to save a set of credentials in this helper’s memory. **erase** purge the credentials for the given properties from this helper’s memory.|
 |`git config -l` | Ver la informacion de configuración |
 
 

@@ -2,18 +2,21 @@
 
 | Comando | Descripción |
 |---------|-------------|
+| https://enable-cors.org/index.html | |
+| https://unicode-table.com/es/2714/ | |
+| https://app.svgator.com/auth/register#/ | |
 | https://shields.io/ | |
-| https://colorswall.com/ ||
+| https://colorswall.com/ | Paleta de colores |
 | https://www.smashingmagazine.com/2021/03/svg-generators/ ||
-| https://applecolors.com/||
+| https://applecolors.com/| Paleta de colores |
 | https://picsum.photos/ | Fotos aleatorias en el mismo link |
 | https://material.io/components/buttons-floating-action-button#usage | Material ui de google |
-| https://simpleicons.org/ ||
-| https://getwaves.io/ ||
-| https://animate.style/ ||
-| https://balsamiq.cloud/ ||
-| https://whimsical.com/ ||
-|https://www.presenciaweb.net/tools/circulo-cromatico/||
+| https://simpleicons.org/ | Iconos y sus colores |
+| https://getwaves.io/ | Redondeos css |
+| https://animate.style/ | Animaciones |
+| https://balsamiq.cloud/ | Diseño |
+| https://whimsical.com/ | Diseño |
+|https://www.presenciaweb.net/tools/circulo-cromatico/| Circulo cromatico |
 |https://poesiabinaria.net/2017/07/cerrar-puerto-tcp-ocupado-una-aplicacion-gnulinux/| Matar procesos en linux|
 
 |Mongodb||

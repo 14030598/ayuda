@@ -4,6 +4,8 @@
 |---------|----------|
 | `Ctrl + Super(tecla Win) + d` | Muestra escritorio |
 |`fuser -k -n tcp 4001`| Mata el proceso del puerto 4001|
+|`lsof -i:<port>`| listar los ports|
+|`kill <pid>`| Matar proceso |
 
 
 # Instalación
@@ -19,6 +21,11 @@
     - nvm list-remote
     - sudo nvm install v14.17.5
     - node -v
+...........................
+    - nvm ls
+    - nvm alias default vX.x.x
+    - nvm uninstall vX.x.x
+    
 - **npm**
     - sudo apt install npm
     - npm -v
