@@ -2,11 +2,11 @@
 
 | Comando | Descripción |
 |---------|-------------|
-| [https://enable-cors.org/index.html](https://massgrave.dev/) | Activar windows/office |
+| [https://massgrave.dev](https://massgrave.dev/) | Activar windows/office |
 | https://enable-cors.org/index.html | |
-| https://unicode-table.com/es/2714/ | |
+| https://unicode-table.com/es/2714/ | Marca de verificación pesada Emoji ✔ |
 | https://app.svgator.com/auth/register#/ | |
-| https://shields.io/ | |
+| [https://shields.io/](https://shields.io/) | Badges en github |
 | https://colorswall.com/ | Paleta de colores |
 | https://www.smashingmagazine.com/2021/03/svg-generators/ ||
 | https://applecolors.com/| Paleta de colores |
