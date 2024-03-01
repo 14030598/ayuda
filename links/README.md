@@ -2,6 +2,7 @@
 
 | Comando | Descripción |
 |---------|-------------|
+| [https://enable-cors.org/index.html](https://massgrave.dev/) | Activar windows/office |
 | https://enable-cors.org/index.html | |
 | https://unicode-table.com/es/2714/ | |
 | https://app.svgator.com/auth/register#/ | |
